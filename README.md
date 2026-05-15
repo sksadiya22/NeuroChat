@@ -86,4 +86,4 @@ docker-compose up -d
 This project is licensed under the MIT License.
 
 ---
-Built with ❤️ by [Likhith](https://github.com/DevLikhith5)
+Built with ❤️ by [SkSadiya](https://github.com/DevLikhith5)
