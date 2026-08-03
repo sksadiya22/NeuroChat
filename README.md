@@ -189,133 +189,7 @@ REST APIs (HTTP)               Socket.io (WebSocket)
 
 ---
 
-# 🔄 Messaging Workflow
 
-```text
-User A
-
-↓
-
-Compose Message
-
-↓
-
-Socket.io Client
-
-↓
-
-Socket.io Server
-
-↓
-
-AES-GCM Encryption
-
-↓
-
-Store Encrypted Message
-
-↓
-
-MongoDB
-
-↓
-
-Broadcast Event
-
-↓
-
-User B Receives Message
-
-↓
-
-Decrypt Locally
-
-↓
-
-Display Chat
-```
-
----
-
-# 📞 Video Call Workflow
-
-```text
-User A
-
-↓
-
-Initiates Call
-
-↓
-
-Socket.io Signaling
-
-↓
-
-Offer
-
-↓
-
-Answer
-
-↓
-
-ICE Candidate Exchange
-
-↓
-
-STUN/TURN
-
-↓
-
-WebRTC Connection
-
-↓
-
-Peer-to-Peer Audio & Video
-```
-
----
-
-# 🔑 Authentication Flow
-
-```text
-User Registers
-
-↓
-
-bcrypt Password Hashing
-
-↓
-
-MongoDB
-
-↓
-
-User Login
-
-↓
-
-Password Verification
-
-↓
-
-Generate JWT
-
-↓
-
-Frontend Stores Token
-
-↓
-
-Protected API Requests
-
-↓
-
-JWT Middleware Validation
-```
-
----
 
 # 📂 Database Design
 
@@ -425,18 +299,7 @@ POST /api/upload
 * Cloudinary CDN for media delivery
 * Optional Redis adapter for Socket.io scaling
 
----
 
-# 🌍 Real-World Applications
-
-* Secure Messaging Platforms
-* Team Collaboration Tools
-* Enterprise Communication Systems
-* Online Learning Platforms
-* Telemedicine
-* Customer Support Systems
-* Remote Interview Platforms
-* Social Networking Applications
 
 ---
 
@@ -457,55 +320,6 @@ POST /api/upload
 
 ---
 
-# 📦 Installation
-
-Clone the repository
-
-```bash
-git clone https://github.com/sksadiya22/OpenConnect.git
-cd OpenConnect
-```
-
-Install dependencies
-
-```bash
-npm run install:all
-```
-
-Create `.env` files for both the client and server using the provided `.env.example` templates.
-
-Start the development server
-
-```bash
-npm run dev
-```
-
-Run with Docker
-
-```bash
-docker-compose up -d
-```
-
----
-
-# 🎯 Learning Outcomes
-
-This project strengthened my understanding of:
-
-* Full-Stack MERN Development
-* REST API Design
-* Authentication & Authorization
-* Socket.io
-* WebRTC
-* Peer-to-Peer Communication
-* End-to-End Encryption
-* MongoDB Schema Design
-* Real-Time System Design
-* Secure Media Handling
-* Cloud Deployment Concepts
-* Scalable Backend Architecture
-
----
 
 # 📜 License
 
@@ -518,7 +332,6 @@ This project is licensed under the **MIT License**.
 **Sk Sadiya Parvin**
 
 * GitHub: https://github.com/sksadiya22
-* LinkedIn: *(Add your LinkedIn profile here)*
 
 ---
 
